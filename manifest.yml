@@ -1,0 +1,8 @@
+applications:
+- name: bluemix-springmvc 
+  memory: 512M
+  path: bluemix-springmvc.war
+  host: bluemix-springmvc-javaplays
+  buildpack: liberty-for-java 
+services:
+ - Database-rn
