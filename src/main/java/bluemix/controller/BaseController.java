@@ -26,7 +26,7 @@ public class BaseController {
 		model.addAttribute("counter", ++counter);
 		logger.debug("[welcome] counter : " + counter);
 
-		model.addAttribute("debugStatement", "AccountService"+accountService);
+//		model.addAttribute("debugStatement", "AccountService"+accountService);
 		// Spring uses InternalResourceViewResolver and return back index.jsp
 		return VIEW_INDEX;
 	}
@@ -38,7 +38,7 @@ public class BaseController {
 		model.addAttribute("counter", ++counter);
 		logger.debug("[welcomeName] counter : " + counter);
 
-		model.addAttribute("foundAccounts", accountService.getAccounts());
+	//	model.addAttribute("foundAccounts", accountService.getAccounts());
 		return VIEW_INDEX;
 	}
 

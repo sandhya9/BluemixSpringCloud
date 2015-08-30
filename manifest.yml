@@ -3,6 +3,7 @@ applications:
   memory: 512M
   path: bluemix-springmvc.war
   host: bluemix-springmvc-javaplays
-  buildpack: liberty-for-java 
+  buildpack: liberty-for-java
 services:
- - Database-rn
+ - 'PostgreSQL by Compose-i8'
+
